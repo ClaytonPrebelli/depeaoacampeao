@@ -158,7 +158,7 @@
     width:55%;
     display: flex;
     flex-direction: row-reverse;
-    padding: 48px 3vw 24px;
+    padding: 36px 3vw 24px;
 }
 .inscricao-title{
     width:40%;
@@ -187,7 +187,7 @@
     
 }
 .inscricao-foto{
-    width:55%;
+    width:50%;
 }
 .inscricao-dados{
     padding-top: 20vh;
@@ -254,13 +254,13 @@
 }
 .motivos-content{
     width:55%;
-    padding: 48px 3vw;
+    padding: 36px 3vw;
 }
 .motivos-title{
     font-family: "Gotham";
     font-weight: 700;
     color:#00b5ff;
-    font-size: 30pt;
+    font-size: 31pt;
     text-transform: uppercase;
 }
 .motivos-text{
@@ -268,5 +268,26 @@
     font-weight: normal;
     color:#000c3c;
     font-size: 13pt;
-    line-height: 13pt;
+    line-height: 6pt;
+}
+
+.division{
+    display: flex;
+    justify-content: center;
+}
+.division-content{
+    width: 55%;
+    padding: 12vh 3vw;
+    display: flex;
+    justify-content: center;
+}
+.division-inscreva{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Gotham";
+    font-weight: 700;
+    font-size: 30pt;
+    color:#fff;
+    border:2px solid #fff;
+    padding:1vw 2vw;
 }
