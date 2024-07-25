@@ -190,7 +190,7 @@
     width:50%;
 }
 .inscricao-dados{
-    padding-top: 20vh;
+    padding-top: 21vh;
     width:40%;
     display: flex;
     flex-direction: column;
@@ -202,13 +202,13 @@
     font-family: "Gotham";
     font-weight: 600;
     color:#fff;
-    font-size: 15pt;
-    line-height: 15pt;
+    font-size: 22pt;
+    line-height: 24pt;
 }
 .inscricao-dados-text{
     margin-top:-10px;
     font-family: "Gotham";
-    font-weight: normal;
+    font-weight: 600;
     color:#fff;
     font-size: 15pt;
     line-height: 15pt;
@@ -290,4 +290,66 @@
     color:#fff;
     border:2px solid #fff;
     padding:1vw 2vw;
+}
+.sobre{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre-header{
+    width:100%;
+    background: rgb(9,9,121);
+    background: linear-gradient(135deg, #0b133c 0%, #0b133c 76%, rgba(255,255,255,1) 76%, rgba(255,255,255,1) 100%);
+    display:flex;
+    justify-content: center;
+}
+.sobre-header-content{
+    width:55%;
+    padding: 24px 3vw;
+}
+.sobre-header-title{
+    color:#fff;
+    font-size: 30pt;
+    text-transform: uppercase;
+    font-family: "Gotham";
+    font-weight: 700;
+}
+.sobre-nome{
+    color:#fff;
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-family: "Gotham";
+    font-weight: 600;
+}
+.sobre-header-text{
+    color:#fff;
+    font-size: 14pt;
+    font-family: "Gotham";
+    font-weight: normal;
+    line-height: 0;
+}
+.sobre-content{
+    width:55%;
+    padding:0 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre-vid1{
+    width:100%;
+}
+.sobre-text{
+    width:100%;
+    color:#0f1f41;
+    font-size: 16pt;
+    font-family: "Gotham";
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.completo{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding: 500px;
 }
