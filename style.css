@@ -265,10 +265,13 @@
 .motivos{
     background-color: #FFF;
     display:flex;
-    justify-content: center;
+  
+}
+.motivos-img{
+    width:35vw;
 }
 .motivos-content{
-    width:55%;
+    width: 38%;
     padding: 36px 3vw;
 }
 .motivos-title{
@@ -414,12 +417,12 @@
     display: flex;
     justify-content: space-between;
     margin-bottom:24px;
-}
+} 
 .conteudo-logo{
-    width:20%;
+    width:25%;
 }
 .conteudo-lista{
-width: 70%;
+width: 60%;
 display: flex;
 flex-direction: column;
 row-gap: 8px;
@@ -507,7 +510,7 @@ row-gap: 8px;
     background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(0,155,219,1) 28%, rgba(0,155,219,1) 100%);
 }
 .carrosel{
-    width:52%;
+    width:60%;
     padding: 0 0vw;
     margin-bottom: 6vh;
 }
@@ -533,25 +536,54 @@ row-gap: 8px;
 }
 
 .carousel-item{
-    padding: 0 6vw;
+    padding: 0 5.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+.carrosel-content {
+    display: flex;
+    justify-content: space-between;
+}
+.item-depo{
+    width:48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .balao{
+    width:100%;
     background-image: url(./assets/img/balao.webp);
     background-size: 100% 100%;
-    height: 60vh;
-    min-height: 60vh;
-    max-height: 60vh;
+    height: 81vh;
+    min-height: 81vh;
+    max-height: 81vh;
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 14px;
+    padding-bottom: 10vh;
 }
 .balao-text{
-    width: 80%;
+    width: 90%;
     text-align: center;
+    font-family: "Gotham";
+    font-weight: normal;
+
+}
+.nome{
+    width: 80%;
+    line-height: 0;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: "Gotham";
+    font-weight: 600;
+}
+.foto-depo{
+    width:55%;
+    margin-top: -12vh;
 }
 .sm-txt{
     padding-top: 10vh;
@@ -606,18 +638,60 @@ row-gap: 8px;
     flex-direction: column;
     padding-top: 8vh;
 }
+.infos-header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.infos-header-left{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.infos-header-right{
+    width: 20%;
+    display: flex;
+}
+.data{
+    width:100%;
+}
 .infos-title{
     font-family: "Gotham";
     font-weight: 700;
+    font-size: 36pt;
+    color: #FFF;
+    width: 100%;
+}
+.destaque{
+    margin-top: 20px;
+    font-family: "Gotham";
+    font-weight: 700;
     font-size: 20pt;
+    color: #FFF;
+    width: 100%;
+}
+.info-item{
+    display:flex;
+    flex-direction: column;
+    width:38%;
+}
+.itm1{
+    width:60%;
+}
+.infos-topic{
+    font-family: "Gotham";
+    font-weight: 600;
+    font-size: 14pt;
+    line-height:4pt;
+    margin-bottom: 4px;
     color: #FFF;
 }
 .infos-text{
     font-family: "Gotham";
     font-weight: normal;
-    font-size: 14pt;
-    line-height: 14pt;
-    margin-bottom: 8px;
+    font-size: 18pt;
+    line-height: 18pt;
+
     color: #FFF;
 }
 .fim{
@@ -626,7 +700,7 @@ row-gap: 8px;
     justify-content: space-between;
     position: sticky;
     z-index: 12;
-    
+    margin-top: -12vh;
 }
 .fim-conteudo{
     width:43%;
