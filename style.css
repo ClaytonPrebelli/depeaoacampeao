@@ -76,14 +76,18 @@
     display: flex;
     flex-direction: column;
     background-image: url(./assets/img/bg-logo.webp);
-    background-position: center top -10vh;
+    background-position: center top 14vh;
     background-size: 100%; 
-    padding-top: 2vh;
+   
 }
 .hero{
+    padding-top: 8vh;
     width:100%;
     display: flex;
     justify-content: center;
+    background-image: url(./assets/img/timesquare.webp);
+   background-size: 100% 150%;
+    background-position: center top;
 }
 .hero-content{
     width:55%;
@@ -122,8 +126,8 @@
     line-height: 14pt;
 }
 .quero{
-    margin-top:16px;
-    width:180%;
+    margin-top:8vh;
+    width:150%;
     margin-left: 3vw;
     text-decoration: none;
     font-size: 24pt;
@@ -132,11 +136,12 @@
     font-family: "Gotham";
     font-weight: 600;
     letter-spacing: 1.5px;
-    padding: 2vw;
+    padding:1vw 2vw;
     border:2px solid #fff;
+    margin-bottom: 8vh;
 }
 .hero-img{
-    width:40%;
+    width:48%;
 }
 .inscricao{
     width:100%;
@@ -157,7 +162,8 @@
 .inscricao-header-content{
     width:55%;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    align-items: end;
     padding: 36px 3vw 24px;
 }
 .inscricao-title{
@@ -166,7 +172,16 @@
     font-weight: 600;
     color:#fff;
     text-transform: uppercase;
-    font-size: 27pt;
+    font-size: 25pt;
+    line-height: 25pt;
+}
+.inscricao-text{
+    width:40%;
+    font-family: "Gotham";
+    font-weight: normal;
+    color:#fff;
+    font-size: 14pt;
+    line-height:14pt;
 }
 .inscricao-title-destaque{
     font-size: 34pt;
@@ -176,7 +191,7 @@
     display: flex;
     justify-content: center;
     position: sticky;
-    margin-top: -20vh;
+    margin-top: -28vh;
     z-index: 11;
 }
 .inscricao-body-content{
@@ -187,10 +202,10 @@
     
 }
 .inscricao-foto{
-    width:50%;
+    width:45%;
 }
 .inscricao-dados{
-    padding-top: 21vh;
+    padding-top: 24vh;
     width:40%;
     display: flex;
     flex-direction: column;
@@ -208,7 +223,7 @@
 .inscricao-dados-text{
     margin-top:-10px;
     font-family: "Gotham";
-    font-weight: 600;
+    font-weight: normal;
     color:#fff;
     font-size: 15pt;
     line-height: 15pt;
@@ -262,13 +277,16 @@
     color:#00b5ff;
     font-size: 31pt;
     text-transform: uppercase;
+    margin-bottom: 3vh;
 }
 .motivos-text{
     font-family: "Gotham";
     font-weight: normal;
     color:#000c3c;
     font-size: 13pt;
-    line-height: 6pt;
+    line-height: 14pt;
+    padding-left: 2vw;
+    margin-bottom: 8pt;
 }
 
 .division{
@@ -364,7 +382,7 @@
 }
 .conteudo-title{
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 6vh;
     padding-left: 2vw;
     color:#fff;
     font-size: 28pt;
@@ -372,7 +390,7 @@
     font-family: "Gotham";
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .conteudo-legenda{
     width: 100%;
@@ -382,19 +400,20 @@
     font-family: "Gotham";
     font-weight: normal;
     padding-left: 2vw;
-    margin-top:-8px;
+    margin-top:0vh;
 }
 .conteudo-vid{
     width:100%;
-    margin-top:24px;
+    margin-top:16px;
+    margin-bottom: 5vh;
 }
 .conteudo-topicos{
     width:100%; 
     padding-left: 2vw;
-    margin-top: 36px;
+    margin-top: 24px;
     display: flex;
     justify-content: space-between;
-    margin-bottom:48px;
+    margin-bottom:24px;
 }
 .conteudo-logo{
     width:20%;
@@ -421,5 +440,235 @@ row-gap: 8px;
 .conteudo-inscreva{
     width: 70%;
     text-align: center;
-    margin-bottom:48px;
+    margin-top:6vh;
+    margin-bottom:12vh;
+}
+.chamada{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+}
+.chamada-faixa{
+    width:100%;
+    height: 48px;
+    background: rgb(0,155,219);
+    background: linear-gradient(135deg, #009bdb 0%, #009bdb 73%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 100%);
+}
+.chamada-content{
+    width:55%;
+    padding: 0 3vw;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 12;
+    margin-top: -15vh;
+}
+.chamada-foto{
+    width:47%;
+}
+.chamada-conteudo{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chamada-title{
+    color:#009bdb;
+    font-family: "Gotham";
+    font-weight: 700;
+    font-size: 26pt;
+    text-transform: uppercase;
+    margin-top: 26vh;
+}
+.chamada-text{
+    color:#000;
+    font-family: "Gotham";
+    font-weight: 600;
+    font-size: 11pt;
+    margin-bottom: 10vh;
+}
+.chamada-destaque{
+    color: #009bdb;
+    font-weight: 600;
+}
+.provas{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/img/bg-social.webp);
+}
+.provas-faixa{
+    width:100%;
+    height: 38px;
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(0,155,219,1) 28%, rgba(0,155,219,1) 100%);
+}
+.carrosel{
+    width:52%;
+    padding: 0 0vw;
+    margin-bottom: 6vh;
+}
+.provas-title{
+    width:55%;
+    padding: 0 5vw;
+    color:#fff;
+    font-family: "Gotham";
+    font-weight: 700;
+    font-size: 26pt;
+    text-transform: uppercase;
+    margin-top: 8vh;
+
+}
+.provas-text{
+    width:55%;
+    padding: 0 5vw;
+    color:#fff;
+    font-family: "Gotham";
+    font-weight: 600;
+    font-size: 11pt;
+    margin-bottom: 6vh;
+}
+
+.carousel-item{
+    padding: 0 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.balao{
+    background-image: url(./assets/img/balao.webp);
+    background-size: 100% 100%;
+    height: 60vh;
+    min-height: 60vh;
+    max-height: 60vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.balao-text{
+    width: 80%;
+    text-align: center;
+}
+.sm-txt{
+    padding-top: 10vh;
+}
+.faq{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+}
+.faq-faixa{
+    width:100%;
+    height: 48px;
+    background: rgb(0,155,219);
+    background: linear-gradient(135deg, #009bdb 0%, #009bdb 73%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 100%);
+}
+.faq-content{
+    width:55%;
+    padding: 0 3vw;
+    display: flex;
+ flex-direction: column;
+}
+.faq-title{
+    color:#009bdb;
+    font-family: "Gotham";
+    font-weight: 700;
+    font-size: 26pt;
+    text-transform: uppercase;
+    margin-top: 10vh;
+}
+.faq-text{
+    color:#000;
+    font-family: "Gotham";
+    font-weight: 600;
+    font-size: 11pt;
+    margin-bottom: 10vh;
+}
+.infos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/img/geral.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.infos-content{
+    width:55%;
+    padding: 0 3vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8vh;
+}
+.infos-title{
+    font-family: "Gotham";
+    font-weight: 700;
+    font-size: 20pt;
+    color: #FFF;
+}
+.infos-text{
+    font-family: "Gotham";
+    font-weight: normal;
+    font-size: 14pt;
+    line-height: 14pt;
+    margin-bottom: 8px;
+    color: #FFF;
+}
+.fim{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 12;
+    
+}
+.fim-conteudo{
+    width:43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.fim-conteudo-title{
+    color:#009bdb;
+    font-family: "Gotham";
+    font-weight: 700;
+    font-size: 26pt;
+    text-transform: uppercase;
+}
+.fim-inscreva{
+margin-left: -3vw;
+width: 180%;
+font-size: 22pt;
+padding-left: 3vw;
+margin-top: 8px;
+margin-bottom: 12px
+}
+.fim-text{
+    font-family: "Gotham";
+    font-weight: normal;
+    font-size: 18pt;
+    line-height: 18pt;
+    color: #FFF;
+}
+.fim-slogan{
+    width:100%;
+    margin-left: -3.5vw;
+    margin-top: -1vh;
+}
+.fim-foto{
+    width:57%;
+}
+.fim-miuda{
+    font-family: "Gotham";
+    font-weight: normal;
+    font-size: 11pt;
+    line-height: 11pt;
+    color: #FFF;
+    margin-bottom: 8vh;
 }
