@@ -1112,6 +1112,17 @@ justify-content: center;
         width: 100%;
         margin-top: 16px;
     }
+    .fim{
+        flex-direction: column-reverse;
+        margin-top: -5vh;
+    }
+    .fim-foto{
+        width: 100%;
+    }
+    .fim-conteudo{
+        width: 100%;
+        
+    }
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1400px) {
