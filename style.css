@@ -1172,6 +1172,12 @@ justify-content: center;
         width: 100%;
         
     }
+    .preco-content{
+        width:90%;
+    }
+    .preco-fim{
+        font-size: 15pt;
+    }
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1400px) {
