@@ -289,7 +289,12 @@
     font-weight: normal;
     font-size: 10pt;
 }
-
+.texto-insc{
+    font-size: 10pt;
+    color:#fff;
+     font-family: "Gotham";
+    font-weight: normal;
+}
 .form-enviar {
     width: 40%;
     background-color: #009bdb;
@@ -351,7 +356,8 @@
     width: 55%;
     padding: 12vh 3vw;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .division-inscreva {
@@ -527,9 +533,11 @@
     width: 70%;
     text-align: center;
     margin-top: 6vh;
+  
+}
+.desce{
     margin-bottom: 12vh;
 }
-
 .chamada {
     width: 100%;
     display: flex;
@@ -879,7 +887,7 @@
     justify-content: space-between;
     position: sticky;
     z-index: 12;
-    margin-top: -12vh;
+    margin-top: -6vh;
 }
 
 .fim-conteudo {
@@ -1111,9 +1119,12 @@
         width:90%;
         margin: 10px auto;
     }
+    .desce{
+        width:90%;
+    }
     .conteudo-inscreva{
         width:90%;
-        margin: 10px auto 80px auto;
+        margin: 10px auto 0px auto;
     }
     .chamada-content{
         width:90%;
