@@ -1148,8 +1148,8 @@ justify-content: center;
         width: 80%;
     }
     .balao{
-        max-height: 86vh;
-        min-height: 86vh;
+        max-height: 83vh;
+        min-height: 83vh;
     }
     .infos-content{
         width:90%;
@@ -1177,6 +1177,13 @@ justify-content: center;
     }
     .preco-fim{
         font-size: 15pt;
+    }
+    .header-content{
+        width:90%;
+        flex-wrap: wrap;
+    }
+    .header-inner{
+        background: #009cda ;
     }
 }
 
