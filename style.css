@@ -302,6 +302,9 @@
     font-size: 12pt;
     text-transform: uppercase;
 }
+.form-enviar:disabled{
+    background-color: #e4e4e4;
+}
 
 .motivos {
     background-color: #fff;

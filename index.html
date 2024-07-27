@@ -50,11 +50,12 @@
                     <div class="inscricao-dados">
                     <p class="inscricao-dados-text-bold">Inscreva-se Agora!</p>
                     <p class="inscricao-dados-text mt-3">Junte-se ao seleto grupo<br>de profissionais de sucesso!</p>
-                    <form class="form mt-3" action="https:/prebellisolucoes.com/process.php" method="post" enctype="multipart/form-data" onclick="">
-                        <input type="text" class="form-input" placeholder="Nome" name="nome" id="nome" #nome>
-                        <input type="email" class="form-input mt-2" placeholder="E-mail" name="email" id="mail" #mail>
-                        <input type="text" class="form-input mt-2" placeholder="telefone" name="telefone" id="telefone" #telefone>
-                        <button class="form-enviar mt-2" type="submit" #submit_contact id="submit_contact">Enviar</button>
+                    <form class="form mt-3" action="https:/prebellisolucoes.com/process.php" method="post" enctype="multipart/form-data" onclick="" >
+                        <input type="text" class="form-input" placeholder="Nome" name="nome" id="nome" #nome required onkeyup="valida()" onchange="valida()">
+                        <input type="email" class="form-input mt-2" placeholder="E-mail" name="email" id="mail" #mail required onkeyup="valida()"onchange="valida()">
+                        <input type="tel" class="form-input mt-2" placeholder="telefone" name="telefone" id="telefone" #telefone maxlength="15" onkeyup="handlePhone(event)" onchange="valida()">
+                        <input type="submit" value="Enviar" class="form-enviar mt-2" #submit_contact id="submit_contact" disabled="disabled">
+                        <!-- <button class="form-enviar mt-2" type="submit" #submit_contact id="submit_contact">Enviar</button> -->
                     </form>
                     </div> 
                 </div>
