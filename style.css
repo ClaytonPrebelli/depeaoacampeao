@@ -527,6 +527,8 @@
     font-family: "Gotham";
     font-weight: 600;
     font-size: 14pt;
+    line-height: 14pt;
+    margin-bottom: 6px;
 }
 
 .conteudo-inscreva {
@@ -887,7 +889,7 @@
     justify-content: space-between;
     position: sticky;
     z-index: 12;
-    margin-top: -6vh;
+    margin-top: 0vh;
 }
 
 .fim-conteudo {
